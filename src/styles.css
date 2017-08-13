@@ -1,1 +1,141 @@
 /* You can add global styles to this file, and also import other style files */
+@import "style/bootstrap-dist/css/bootstrap.min.css";
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+.panel-shadow {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.panel-color {
+    color: rgb(51, 122, 183)!important;
+    background-color: #eee!important;
+}
+.panel-margin {
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+.row-margin {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.panel-text-margin {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.app-margin {
+    margin-left: 50px;
+
+    margin-right: 10px;
+}
+.panel-indent {
+    margin-left: 30px;
+}
+.panda {
+    width: 60%;
+    height: auto;
+    background-size: contain;
+}
+.image-center {
+    display: block;
+    margin: auto;
+}
+.icon-bar {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(51, 122, 183)!important;
+    margin: 0px 0;
+}
+.image-size {
+    max-width: 100px;
+    max-height: 100px;
+}
+.image-shadow {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.image-icon {
+    position: relative;
+    z-index: 10; /* Was 2 */
+}
+ .hovicon.effect-7 {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+    -webkit-transition: background 0.2s, color 0.2s;
+    -moz-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s;
+}
+.hovicon.effect-7:hover, .hovicon.effect-7:hover i {
+    color: #fff;
+}
+.hovicon.effect-7:after {
+    top: -8px;
+    left: -8px;
+    padding: 8px;
+    z-index: -1;
+    opacity: 0;
+}
+/* Effect 7a */
+ .hovicon.effect-7.sub-a:after {
+    box-shadow: 0 0 0 rgba(255, 255, 255, 1);
+    -webkit-transition: opacity 0.2s, box-shadow 0.2s;
+    -moz-transition: opacity 0.2s, box-shadow 0.2s;
+    transition: opacity 0.2s, box-shadow 0.2s;
+}
+.hovicon.effect-7.sub-a:hover:after {
+    opacity: 1;
+    box-shadow: 3px 3px 0 rgba(255, 255, 255, 1);
+}
+.hovicon.effect-7.sub-a:before {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.7;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.hovicon.effect-7.sub-a:hover:before {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+/* Effect 7b */
+ .hovicon.effect-7.sub-b:after {
+    box-shadow: 3px 3px rgba(255, 255, 255, 1);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+    -moz-transition: opacity 0.2s, -moz-transform 0.2s;
+    transition: opacity 0.2s, transform 0.2s;
+}
+.hovicon.effect-7.sub-b:hover:after {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.hovicon.effect-7.sub-b:before {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.7;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.hovicon.effect-7.sub-b:hover:before {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
